@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="wentee:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>wentee</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="wentee-1.0.war">
+      <element id="artifact" artifact-name="wentee:war exploded" />
+    </root>
+  </artifact>
+</component>
