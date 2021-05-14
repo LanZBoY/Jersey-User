@@ -11,5 +11,6 @@ public class InitApp extends Application {
     public InitApp(){
 //        對所有的API做初始化的動作
 //        代表所有物件都要在這邊取得聯繫
+        JobMongo jobMongo = new JobMongo();
     }
 }

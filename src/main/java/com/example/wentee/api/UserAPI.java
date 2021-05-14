@@ -2,6 +2,7 @@ package com.example.wentee.api;
 
 import com.example.wentee.InitApp;
 import com.example.wentee.model.User;
+import org.bson.Document;
 
 import javax.ws.rs.Consumes;
 import javax.ws.rs.GET;
